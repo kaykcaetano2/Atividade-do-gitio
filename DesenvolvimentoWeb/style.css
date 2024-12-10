@@ -1,0 +1,26 @@
+*{
+    --text-color:#FFFFFF;
+    --fundo:#202020;
+    --border: 2px solid  #FFFFFF;
+    --tamanho-titulo:60px;
+    --tamanho-texto:40px;
+}
+body{
+    background-color: var(--fundo);
+    color: var(--text-color);
+    text-align: center;
+}
+h1{
+    font-size: var(--tamanho-titulo);
+}
+p{
+    font-size: var(--tamanho-texto);
+}
+table{
+    display: flex;
+    justify-content: center;
+}
+th{
+    border: var(--border);
+    font-size: 30px;
+}
